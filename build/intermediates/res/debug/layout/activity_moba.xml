@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:fillViewport="false">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="15dp">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/card_margin"
+            android:layout_marginLeft="@dimen/card_margin"
+            android:layout_marginRight="@dimen/card_margin">
+
+            <LinearLayout
+                style="@style/Widget.CardContent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/primary">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:textColor="@color/accent"
+                        android:background="@drawable/logocidown"/>
+
+                </TableLayout>
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/light" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                    android:text="App CIDOWN"
+                    android:textColor="@color/dark"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Centro de Información a Favor de las Personas con Síndrome de Down"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="cidown@naveli.net"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Versión 1.0"
+                    android:gravity="center"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                    android:textColor="@color/accent"/>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/light" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:autoLink="web"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="©2015 Naveli"/>
+
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/card_margin"
+            android:layout_marginLeft="@dimen/card_margin"
+            android:layout_marginRight="@dimen/card_margin">
+
+            <LinearLayout
+                style="@style/Widget.CardContent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Diseño &amp; Desarrollo"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                    android:textColor="@color/accent"/>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/light" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:autoLink="web"
+                    android:layout_height="wrap_content"
+                    android:text="Alejandro Plancarte (Lider de Proyecto)\nJosué Marfil"/>
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/card_margin"
+            android:layout_marginLeft="@dimen/card_margin"
+            android:layout_marginRight="@dimen/card_margin">
+
+            <LinearLayout
+                style="@style/Widget.CardContent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Idea &amp; Recolección de datos"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                    android:textColor="@color/accent"/>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/light" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:autoLink="web"
+                    android:layout_height="wrap_content"
+                    android:text="Fernando Octavio Hernández Vilchis \n(PDS - SLT)\n\nCarrera: PDS, Promoción de la Salud.\nSLT, Plantel San Lorenzo Tezonco."/>
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/card_margin"
+            android:layout_marginLeft="@dimen/card_margin"
+            android:layout_marginRight="@dimen/card_margin">
+            <LinearLayout
+                style="@style/Widget.CardContent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Base de datos"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                    android:textColor="@color/accent"/>
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/light" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:autoLink="web"
+                    android:layout_height="wrap_content"
+                    android:text="Alejandro Plancarte\nCarlos Vázquez\nMariana Ponce"/>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/card_margin"
+            android:layout_marginLeft="@dimen/card_margin"
+            android:layout_marginRight="@dimen/card_margin">
+            <LinearLayout
+                style="@style/Widget.CardContent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Depuración &amp; Pruebas"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                    android:textColor="@color/accent"/>
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/light" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:autoLink="web"
+                    android:layout_height="wrap_content"
+                    android:text="Carlos Vázquez\nMariana Ponce"/>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/card_margin"
+            android:layout_marginLeft="@dimen/card_margin"
+            android:layout_marginRight="@dimen/card_margin">
+
+            <LinearLayout
+                style="@style/Widget.CardContent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    >
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:textColor="@color/accent"
+                        android:background="@drawable/mobauacm"/>
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/light" />
+                </TableLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="MOBile Apps UACM\nDivisión de desarrollo de sistemas y aplicaciones móviles de la Universidad Autónoma de la Ciudad de México\n\nSEDE, UACM - Plantel Cuautepec."/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:autoLink="email"
+                    android:layout_height="wrap_content"
+                    android:text="mobauacm@gmail.com\n"/>
+
+                <TableLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+                    <TableRow android:gravity="center">
+                        <ImageButton
+                            android:id="@+id/facebookMoba"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:background="@drawable/mobafacebook"/>
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="match_parent"
+                            android:background="@color/white"/>
+                        <ImageButton
+                            android:id="@+id/twitterMoba"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:background="@drawable/mobatwitter"/>
+                    </TableRow>
+                </TableLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/card_margin"
+            android:layout_marginLeft="@dimen/card_margin"
+            android:layout_marginRight="@dimen/card_margin">
+            <LinearLayout
+                style="@style/Widget.CardContent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Equipo MOBA"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                    android:textColor="@color/accent"/>
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/light" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:autoLink="web"
+                    android:layout_height="wrap_content"
+                    android:text="Alejandro Plancarte (ISOF)\nCarlos Vázquez (ISOF)\nMariana Ponce (ISOF)\nJosué Marfil (ISOF)\nHans González (ISOF)\nChristian Trejo (ISOF)\n\nCarrera: ISOF, Ingeniería de Software."/>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/card_margin"
+            android:layout_marginLeft="@dimen/card_margin"
+            android:layout_marginRight="@dimen/card_margin">
+
+            <LinearLayout
+                style="@style/Widget.CardContent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Agradecimientos"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                    android:textColor="@color/dark"/>
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/light" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:autoLink="web"
+                    android:layout_height="wrap_content"
+                    android:text="@string/agradecimiento"/>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/card_margin"
+            android:layout_marginLeft="@dimen/card_margin"
+            android:layout_marginRight="@dimen/card_margin">
+
+            <LinearLayout
+                style="@style/Widget.CardContent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:textColor="@color/accent"
+                        android:background="@drawable/naveli"/>
+                </TableLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="More ideas for your site. \nMore customers for you business."/>
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="#33baad" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:autoLink="web"
+                    android:layout_height="wrap_content"
+                    android:text="www.naveli.net"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:autoLink="email"
+                    android:layout_height="wrap_content"
+                    android:text="contacto@naveli.net"/>
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="#33baad" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="©2015 Naveli Mobile\n"/>
+
+
+                <TableLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+
+                    <TableRow android:gravity="center">
+                        <ImageButton
+                            android:id="@+id/facebookNaveli"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:background="@drawable/mobafacebook"/>
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="match_parent"
+                            android:background="@color/white"/>
+                        <ImageButton
+                            android:id="@+id/twitterNaveli"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:background="@drawable/mobatwitter"/>
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="match_parent"
+                            android:background="@color/white"/>
+                        <ImageButton
+                            android:id="@+id/inNaveli"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:background="@drawable/innaveli"/>
+
+                    </TableRow>
+                </TableLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout><!-- From: file:/home/plaknava/AndroidStudioProjects/Cidown/app/src/main/res/layout/activity_moba.xml -->

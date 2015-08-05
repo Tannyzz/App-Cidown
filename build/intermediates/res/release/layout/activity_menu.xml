@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/_inicio">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:fillViewport="false"
+        android:id="@+id/scrollView">
+
+        <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <com.getbase.floatingactionbutton.FloatingActionButton
+                        android:id="@+id/dir"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:fab_colorNormal="#f44336"
+                        app:fab_colorPressed="@color/primary"
+                        app:fab_icon="@drawable/dirtel"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="@string/directorio_menu"
+                        android:id="@+id/textView"
+                        android:layout_column="4"
+                        android:paddingTop="25dp"
+                        android:paddingLeft="15dp" />
+                </TableRow>
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/light" />
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <com.getbase.floatingactionbutton.FloatingActionButton
+                        android:id="@+id/inf"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:fab_colorNormal="#8bc34a"
+                        app:fab_colorPressed="@color/primary"
+                        app:fab_icon="@drawable/help"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="@string/informacion"
+                        android:id="@+id/textView2"
+                        android:layout_column="4"
+                        android:paddingTop="25dp"
+                        android:paddingLeft="15dp" />
+                </TableRow>
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/light" />
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <com.getbase.floatingactionbutton.FloatingActionButton
+                        android:id="@+id/compartir"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:fab_colorNormal="#ffc107"
+                        app:fab_colorPressed="@color/primary"
+                        app:fab_icon="@mipmap/ic_share_white"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="@string/share"
+                        android:id="@+id/textView5"
+                        android:layout_column="4"
+                        android:paddingTop="25dp"
+                        android:paddingLeft="15dp" />
+                </TableRow>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/light" />
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <com.getbase.floatingactionbutton.FloatingActionButton
+                        android:id="@+id/contacto"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:fab_colorNormal="#009688"
+                        app:fab_colorPressed="@color/primary"
+                        app:fab_icon="@drawable/mail"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="@string/contactanos"
+                        android:id="@+id/textView6"
+                        android:layout_column="4"
+                        android:paddingTop="25dp"
+                        android:paddingLeft="15dp" />
+                </TableRow>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/light" />
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <com.getbase.floatingactionbutton.FloatingActionButton
+                        android:id="@+id/ter"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:fab_colorNormal="#e91e63"
+                        app:fab_colorPressed="@color/primary"
+                        app:fab_icon="@drawable/alert"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="@string/terminos"
+                        android:id="@+id/textView4"
+                        android:layout_column="4"
+                        android:paddingTop="25dp"
+                        android:paddingLeft="15dp" />
+                </TableRow>
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/light" />
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <com.getbase.floatingactionbutton.FloatingActionButton
+                        android:id="@+id/mobauacm"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:fab_colorNormal="#3f51b5"
+                        app:fab_colorPressed="@color/primary"
+                        app:fab_icon="@drawable/moba"
+
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="@string/moba"
+                        android:id="@+id/textView3"
+                        android:layout_column="4"
+                        android:paddingTop="25dp"
+                        android:paddingLeft="15dp" />
+                </TableRow>
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/light" />
+
+
+            </TableLayout>
+
+</RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout><!-- From: file:/home/plaknava/AndroidStudioProjects/Cidown/app/src/main/res/layout/activity_menu.xml -->

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" android:drawable="@drawable/button_press"/>
+    <item android:drawable="@drawable/button_directorio"/>
+</selector><!-- From: file:/home/plaknava/AndroidStudioProjects/Cidown/app/src/main/res/drawable/floating_button2.xml -->

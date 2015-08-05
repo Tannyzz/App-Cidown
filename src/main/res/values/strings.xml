@@ -1,0 +1,154 @@
+<resources>
+    <string name="app_name">Cidown</string>
+    <string name="hello_world">Prueba Material Design</string>
+    <string name="mail">Contáctanos</string>
+    <string name="title_activity_maps">Cidown Maps</string>
+    <string name="directorio_menu">Directorio CIDOWN</string>
+    <string name="informacion">Información CIDOWN</string>
+    <string name="moba">Desarrolladores</string>
+    <string name="share">Compartir App</string>
+    <string name="terminos">Términos y Condiciones</string>
+    <string name="contactanos">Contáctanos</string>
+    <string name="buzon">Si deseas que tu Institución esté incluida en CIDOWN ponte en contacto con nosotros.\n ¿Dudas? ¿Sugerencias? ¿Comentarios?</string>
+    <string name="pregunta1">Esta información puede ser útil para usted como para su familia sí:\n\n
+    1.- Está considerando hacerse los estudios para saber si su bebé tiene síndrome de Down.\n\n
+    2.- Se hizo un examen y los resultados inican que existe la posibilidad de que su bebe pusiera tener síndrome de Down.\n\n
+    3.- Se hizo un examen y los resultados indican que su bebé tiene síndrome de Down.\n
+        \nUsted siempre debe autorizar los estudios prenatales:\n
+    \nNo existe ninguna norma o ley mexicana que la obligue a someterse a estudios sin
+    su consentimiento. Usted no debe ser estudiada al menos que lo autorice. Usted
+    debe dar dicha autorización sólo después de ser informada y entender lo que
+    miden cada estudio y los riesgos que implican. Un asesor en genética o un médico
+    pueden ayudarle a entender las ventajas y desventajas de realizar estos estudios
+    y sus resultados.</string>
+    <string name="pregunta2">Generalmente hay dos tipos de estudios (invasivos y no invasivos) que pueden
+    hacerse durante el embarazo para ayudar a determinar si su bebé tiene síndrome
+    de Down, los cuales se conocen con el nombre de “estudios de diagnóstico
+    prenatal”.\n
+    \nPruebas no invasivas: Existen 2 tipos de estudios no invasivos: los análisis de
+    sangre y el ultrasonido. Estudios de sangre hechos en suero materno, tales como
+    el tamiz bioquímico o prueba llamada “cuádruple marcador” se realiza
+    habitualmente entre las semanas 15 y 20 del embarazo, con un índice de precisión
+    de entre el 69% y el 81%.\n
+    \nEl ultrasonido permite obtener información importante sobre la salud del feto y las
+    condiciones presentes en el útero. Habitualmente se realiza entre las semanas 11
+    y 14 del embarazo.\n
+    \nTriple screening o triple test consiste en un análisis de sangre, un ultrasonido y
+    datos de referencia como la edad materna. Este estudio puede indicar si existe
+    alguna alteración en el feto. Habitualmente se realizar entre las semana 15 y 20
+    del embarazo.\n
+    \nEstudios invasivos: Hay dos estudios de diagnóstico que pueden indicar con una
+    certeza de casi 100% si su bebé tendrá síndrome de Down. La
+    amniocentesis (“amnio,” para abreviar) que generalmente se practica después de
+    la semana 15 de embarazo. La muestra de vellosidades coriónicas por lo general
+    se practica entre las semanas 10 y 12 de embarazo. Ambos exámenes implican
+    un riesgo limitado pero real de producir un aborto.</string>
+    <string name="pregunta3" translatable="false">El síndrome de Down, también conocido como Trisomía 21, es una condición en la
+    que una persona nace con tres copias del cromosoma 21 en lugar de dos. En
+    México, 1 de cada 650 bebés nacen con síndrome de Down. En el mundo hay
+    cerca de seis millones de personas con síndrome de Down pero
+    desafortunadamente en México no existen datos estadísticos sobre la situación
+    poblacional con síndrome de Down.\n
+    \nSe desconoce la razón por la cual algunos bebés tienen tres copias del
+    cromosoma 21 en lugar de dos. Se sabe que en 98% de los casos, el síndrome de
+    Down es aleatorio y no hereditario (en 2% de los casos, la condición es heredada
+    de un padre que porta sin saberlo un cromosoma 21 adicional). La posibilidad de
+    tener un bebé con síndrome de Down aumenta con la edad de la madre; sin
+    embargo, 80% de los recién nacidos con síndrome de Down nacen de madres
+    menores de 35 años de edad, dado que un mayor número de mujeres jóvenes
+    están teniendo hijos.\n
+    \nEs importante señalar que el síndrome de Down no tiene ninguna relación con la
+    raza, nacionalidad, situación socioeconómica o religión, ni tampoco con ninguna
+    otra cosa que la madre o el padre hayan hecho antes de o durante el embarazo.</string>
+    <string name="pregunta4">No hay manera de saber el futuro que le depara a un bebé. En muchos aspectos,
+    los niños con síndrome de Down son iguales a los demás. Todos necesitan recibir
+    atención y amor. Sin embargo, las necesidades de salud y educación de una
+    persona con síndrome de Down pueden representar un reto mayor o ser distintas
+    que las de una persona típica. A continuación damos algunas estadísticas acerca
+    de las personas con síndrome de Down que pueden ser de utilidad.</string>
+    <string name="pregunta5"> La expectativa de vida media de una persona con síndrome de Down es
+    de 60 años.\n
+    \n- Desde el nacimiento se producen retrasos en el desarrollo físico pero es
+    imposible predecir la amplia gama de habilidades que poseen las personas
+    con síndrome de Down.\n
+    \n- Las leyes mexicanas establece que cualquier persona, sin importar su
+    condición, tiene el derecho de recibir educación gratuita y apropiada a través
+    del sistema de educación pública, esto aplica también para la atención
+    médica a través del seguro popular o la hoja de gratuidad en el Distrito
+    Federal.\n
+    \n- La mayoría de las personas con síndrome de Down tiene un coeficiente
+    intelectual en el rango de leve a moderado.\n
+    \n- Desde que se iniciaron los movimientos de derechos humanos y civiles en
+    la década de los sesenta, se reconoce cada vez más a las personas con
+    síndrome de Down como parte importante de la sociedad.\n
+    \n- Las personas con síndrome de Down participan en las escuelas, equipos
+    deportivos, organizaciones, centros de trabajo y en diversos actividades
+    artísticas, culturales y deportivas.\n
+    \n- En el mundo un número creciente de personas con síndrome de Down
+    viven independientes de manera total o parcial.\n
+    \n- Un pequeño pero creciente número de personas con síndrome de Down
+    está optando por contraer matrimonio.\n
+    \n- Un pequeño pero creciente número de personas con síndrome de Down en
+    el mundo está participando en programas de educación medio superior y
+    superior</string>
+    <string name="pregunta6"> Hasta 50% de los bebés con síndrome de Down nacen con una cardiopatía
+    y algunos requieren intervención quirúrgica. La gran mayoría de los
+    defectos cardíacos son corregibles.\n
+    \n- Las terapias físicas, del habla y otras recibidas durante los primeros cinco
+    años (llamadas “intervención temprana o estimulación temprana”) pueden
+    marcar una diferencia significativa en el desarrollo físico e intelectual del
+    niño con síndrome de Down.\n
+    \n- La atención médica apropiada para niños y adultos con síndrome de Down
+    es importante y ayuda a fortalecer las capacidades físicas e intelectuales.\n
+    \n- Las personas con síndrome de Down tienen un mayor riesgo de afecciones
+    médicas, tales como problemas respiratorios, problemas de audición, apnea
+    del sueño, afecciones de la tiroides y enfermedad de Alzheimer. Sin
+    embargo, muchas personas con síndrome de Down no padecen de las
+    condiciones anteriores, y dado que existe tratamiento para muchas de ellas,
+    la mayoría puede llevar una vida plena.\n
+    \n- Las personas con síndrome de Down rara vez desarrollan tumores
+    cancerígenos sólidos, no suelen sufrir ataques cardíacos o lesiones
+    cerebro-vasculares.\n</string>
+    <string name="pregunta7">Muchos padres sienten preocupación por el efecto en la familia y los hermanos de
+    un niño con síndrome de Down.\n
+    \nEs natural sentirse triste o preocupado si un examen detecta que el bebé tiene o
+    puede tener síndrome de Down. Un bebé con síndrome de Down no es algo que
+    las personas suelen planear y podrían surgir problemas médicos, educativos o
+    financieros.\n
+    \nCada familia es singular y se enfrenta de manera diferente la idea o llegada de un
+    bebé con síndrome de Down. A pesar de los posibles retos, tanto los estudios
+    científicos como los testimonios personales demuestran que la mayoría de las
+    familias que tienen un hijo con síndrome de Down son estables, exitosas y felices,
+    y frecuentemente los hermanos indican haber desarrollado un mayor grado de
+    empatía.</string>
+    <string name="pregunta8">Cada mujer y cada embarazo es distinto. Los familiares, amigos, profesionales de
+    la salud y otras personas pueden ayudar a la mujer embarazada para que reciba
+    un diagnóstico prenatal de síndrome de Down. A continuación proporciona el
+    siguiente recurso.\n
+    \nMedicina a Distancia\n
+    \nEs un centro de atención telefónica de la Secretaria de Salud de la Ciudad de
+    México, proporciona servicios de asesoría médica, psicológica, nutricional entre
+    otros servicios, las 24 horas los 365 días del año. También podrá consultar todos
+    los servicios que dispone la Secretaria de Salud; desde cómo y dónde  se deben
+    hacer los trámites para integrarse al Seguro Popular o cómo obtener la Hoja de
+    Gratuidad hasta encontrar las clínicas u hospitales que cuentan con el equipo
+    necesario para realizar el diagnóstico prenatal u otros servicios.\n
+    \nTeléfono: 5132-0909\n
+    \nhttp://www.salud.df.gob.mx/portal/index.php/programas-y-accionesc/mdsedesa</string>
+    <string name="pregunta9">CIDOWN incluye las  diferentes instituciones públicas en
+    donde puede preguntar por los servicios disponibles para las personas con
+    síndrome de Down en educación, capacitación laboral o trabajo, asistencia social,
+    denuncias entre otros servicios.\n
+    \nRecursos extra:\n
+    \nTrámite de la tarjeta de cortesía para personas con discapacidad\n
+    \n- http://www.metro.df.gob.mx/servicios/cortesiacapaciddif.html\n
+    \nAlta de vehículos para personas con discapacidad\n
+    \n- http://www.tramitesyservicios.df.gob.mx/wb/TyS/obtencion_de_placa_de_vehiculo_para_persona_con_di\n
+    </string>
+    <string name="agradecimiento">En primer lugar a la Universidad Autonóma de la Ciudad de México por ser nuestro
+        segundo hogar y hacernos orgullo UACEMITA.\n\nAl Laboratorio de Matemáticas Plantel Cuautepec
+    por permitirnos siempre usar su espacio en largas y largas jornadas de programación.\n\nA todas y cada una de las Instituciones que
+    colaboraron con nosotros para hacer realidad este enorme proyecto; para MOBA UACM fue, es y será siempre un gran reto.
+    \n\nY por ultimo, pero no menos importante, a la Startup "NAVELI" por brindarnos toda la Infraestructura para
+    poder desarrollar un software llamado CIDOWN.</string>
+</resources>
